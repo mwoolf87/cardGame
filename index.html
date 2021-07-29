@@ -1,25 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Card Game</title>
-  </head>
-  <body>
-    <h1>Find the Duplicate Card</h1>
-    <div class="grid">
-      <div class="card" id="card">
-        <div class="front">
-          <img src="./images/card_back.png" alt="card-cover" />
-          <div class="back">
-            <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Card Game</title>
+</head>
+
+<!----- things to fix: 1) Different path for each back image needs to be set ---------->
+
+<body>
+  <h1>Find the Duplicate Card</h1>
+  <div class="main-container">
+
+    <!----------------------- CARD 1 ---------------------------------->
+
+    <div class="card" id="card-one" onclick="flipCard('card-one')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
       </div>
     </div>
-    <script src="./index.js"></script>
-  </body>
+
+    <!----------------------- CARD 2 ---------------------------------->
+
+    <div class="card" id="card-two" onclick="flipCard('card-two')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 3 ---------------------------------->
+
+    <div class="card" id="card-three" onclick="flipCard('card-three')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 4 ---------------------------------->
+
+    <div class="card" id="card-four" onclick="flipCard('card-four')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 5 ---------------------------------->
+
+    <div class="card" id="card-five" onclick="flipCard('card-five')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 6 ---------------------------------->
+
+    <div class="card" id="card-six" onclick="flipCard('card-six')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 7 ---------------------------------->
+
+    <div class="card" id="card-seven" onclick="flipCard('card-seven')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 8 ---------------------------------->
+
+    <div class="card" id="card-eight" onclick="flipCard('card-eight')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+    <!----------------------- CARD 9 ---------------------------------->
+
+    <div class="card" id="card-nine" onclick="flipCard('card-nine')">
+      <div class="front">
+        <img src="./images/card_back.png" alt="card-cover" />
+      </div>
+      <div class="back">
+        <img src="./images/ace_of_spades.png" alt="Ace of Spades" />
+      </div>
+    </div>
+
+  </div>
+  <script src="./index.js"></script>
+</body>
+
 </html>
